@@ -1,0 +1,19 @@
+{
+  "name": "dockerise_node",
+  "version": "1.0.0",
+  "description": "Dockerise node application with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choilmto/dockerise_node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/choilmto/dockerise_node/issues"
+  },
+  "homepage": "https://github.com/choilmto/dockerise_node#readme"
+}

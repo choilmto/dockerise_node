@@ -7,3 +7,10 @@ services:
       - "5000:5000"
     volumes:
       - ./:/opt/node-api
+  tests:
+    build:
+      context: .
+      target: local
+    command: [ "npm", "test" ]
+    volumes:
+      - ./:/opt/node-api
